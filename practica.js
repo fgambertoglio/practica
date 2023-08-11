@@ -20,7 +20,7 @@ console.log(`========== 0.3 If - Else If - Else ==========`);
 
 if (edad < 18) {
   console.log(`no puedes entrar al sistema`);
-} else if (edad >= 18 || edad < 21) {
+} else if (edad < 21) {
   console.log(`necesitas verificacion por tarjeta de credito`);
 } else if (edad >= 21) {
   console.log(`puedes ingresar sin problemas`);
