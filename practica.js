@@ -16,12 +16,14 @@ let edad = Number(prompt(`Ingrese su edad`));
 console.log(`en 10 años tendras ` + (edad + 10));
 
 /* ========== 0.3 If - Else If - Else ========== */
+console.log(`========== 0.3 If - Else If - Else ==========`);
+
 if (edad < 18) {
-  alert(`no puedes entrar al sistema`);
-} else if (edad <= 18 || edad < 21) {
-  alert(`necesitas verificacion por tarjeta de credito`);
-} else if (edad > 21) {
-  alert(`puedes ingresar sin problemas`);
+  console.log(`no puedes entrar al sistema`);
+} else if (edad >= 18 || edad < 21) {
+  console.log(`necesitas verificacion por tarjeta de credito`);
+} else if (edad >= 21) {
+  console.log(`puedes ingresar sin problemas`);
 }
 /* funcion para mostrar array */
 function lista(array) {
